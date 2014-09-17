@@ -20,7 +20,7 @@ echo "=> Creating MySQL user ${MYSQL_USER} with ${_word} password"
 
 mysql -uroot -e "CREATE USER '${MYSQL_USER}'@'%' IDENTIFIED BY '$PASS'"
 mysql -uroot -e "GRANT ALL PRIVILEGES ON *.* TO '${MYSQL_USER}'@'%' WITH GRANT OPTION"
-
+mysql -uroot -e "create database defaultdb;"
 
 echo "=> Done!"
 

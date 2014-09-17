@@ -1,5 +1,6 @@
-FROM ubuntu:trusty
-MAINTAINER Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>
+FROM nitrousio/ubuntu:trusty
+MAINTAINER Nitrous.IO <hello@nitrous.io>
+# Forked from tutum/mysql Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>FROM ubuntu:trusty
 
 # Install packages
 ENV DEBIAN_FRONTEND noninteractive
